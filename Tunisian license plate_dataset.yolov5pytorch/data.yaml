@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['licence plate', 'license plate']
+
+roboflow:
+  workspace: itgateinternship
+  project: tunisian-license-plate-xe5yl-d8jgs
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/itgateinternship/tunisian-license-plate-xe5yl-d8jgs/dataset/2
